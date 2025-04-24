@@ -9,12 +9,6 @@ const SignIn = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Validate credentials (optional: add backend auth here)
-    // if (employeeID && password) {
-    //   navigate("/kml-dashboard");
-    // } else {
-    //   alert("Please enter both Employee ID and Password");
-    // }
     if (employeeID && password) {
       // Save flag to localStorage
       localStorage.setItem("isAuthenticated", "true");
