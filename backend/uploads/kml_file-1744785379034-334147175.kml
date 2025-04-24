@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Basavanagudi 560004</name>
+    <Style id="poly-FBC02D-1200-214-normal">
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>d62dc0fb</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-FBC02D-1200-214-highlight">
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>d62dc0fb</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-FBC02D-1200-214">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-FBC02D-1200-214-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-FBC02D-1200-214-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Basavanagudi 560004</name>
+      <description>KA003BVG01</description>
+      <styleUrl>#poly-FBC02D-1200-214</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              77.5799858,12.9368586,0
+              77.5800846,12.9436169,0
+              77.5851915,12.9437842,0
+              77.5853632,12.9447671,0
+              77.5861357,12.9456454,0
+              77.5884102,12.9462309,0
+              77.5899551,12.9463773,0
+              77.5905774,12.9471929,0
+              77.5915215,12.9477366,0
+              77.5934098,12.9487822,0
+              77.5929377,12.9499742,0
+              77.591042,12.9514604,0
+              77.5870509,12.9527151,0
+              77.5856776,12.9539698,0
+              77.5843043,12.9544299,0
+              77.5799699,12.9551409,0
+              77.577395,12.9563119,0
+              77.5736613,12.9573156,0
+              77.5674815,12.9571484,0
+              77.5675673,12.953928,0
+              77.5679214,12.9436497,0
+              77.5677926,12.9426878,0
+              77.5671058,12.9417366,0
+              77.5667196,12.940921,0
+              77.5667625,12.9390388,0
+              77.566741,12.937784,0
+              77.5683545,12.937862,0
+              77.5684842,12.9351119,0
+              77.5738272,12.9352374,0
+              77.5739347,12.9369005,0
+              77.5799858,12.9368586,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>

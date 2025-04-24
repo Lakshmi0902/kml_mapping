@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Jaya Nagar East 560069</name>
+    <Style id="poly-FF5252-1200-77-normal">
+      <LineStyle>
+        <color>ff5252ff</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d5252ff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-FF5252-1200-77-highlight">
+      <LineStyle>
+        <color>ff5252ff</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d5252ff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-FF5252-1200-77">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-FF5252-1200-77-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-FF5252-1200-77-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Jayanagar East 560069</name>
+      <description>Sector ID TBA</description>
+      <styleUrl>#poly-FF5252-1200-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              77.5858404,12.9170344,0
+              77.5856807,12.9106292,0
+              77.5858631,12.9105664,0
+              77.5923277,12.910299,0
+              77.5923277,12.9110937,0
+              77.5923505,12.9123536,0
+              77.5927904,12.9126255,0
+              77.593992,12.9134725,0
+              77.5938848,12.9140163,0
+              77.5942924,12.9141836,0
+              77.5950649,12.9144346,0
+              77.5950005,12.9168398,0
+              77.5858404,12.9170344,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>

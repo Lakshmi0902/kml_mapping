@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Vasanth Nagar 560052</name>
+    <Style id="poly-E65100-1200-173-normal">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>ad0051e6</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-E65100-1200-173-highlight">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>ad0051e6</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-E65100-1200-173">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-E65100-1200-173-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-E65100-1200-173-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Vasanth Nagar 560052</name>
+      <description>KA001BGR01</description>
+      <styleUrl>#poly-E65100-1200-173</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              77.5968208,12.9842542,0
+              77.5970462,12.9842751,0
+              77.5972393,12.9844738,0
+              77.5972393,12.9846724,0
+              77.5968745,12.985237,0
+              77.5965097,12.9859688,0
+              77.5958231,12.9868051,0
+              77.5952544,12.9877565,0
+              77.5944605,12.9892305,0
+              77.593988,12.9893568,0
+              77.5946532,12.9900468,0
+              77.5951467,12.9904441,0
+              77.5957689,12.990904,0
+              77.5951038,12.9914895,0
+              77.5946532,12.9919495,0
+              77.5941596,12.9923049,0
+              77.5932584,12.9912804,0
+              77.5927005,12.9906113,0
+              77.5922713,12.9898377,0
+              77.5917778,12.9893777,0
+              77.591692,12.9888132,0
+              77.5918637,12.9883741,0
+              77.5923143,12.9882487,0
+              77.5927005,12.9879768,0
+              77.5929151,12.9876214,0
+              77.5936017,12.987935,0
+              77.5943313,12.987015,0
+              77.5950608,12.9859696,0
+              77.5968208,12.9842542,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>
